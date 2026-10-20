@@ -15,7 +15,7 @@ function App() {
         </div>
       </nav>
       <main id="home" className="hero">
-        <p className="intro">HELLO, I'M PRIYA 👋</p>
+        <p className="intro">HELLO, I'M JAYAPRIYA 👋</p>
         <h1>
           I build modern
           <br />
@@ -56,14 +56,21 @@ function App() {
         </p>
 
         <div className="project-grid">
-         
           <article className="project-card">
+            <img
+              src="/bloom.png"
+              alt="Bloom Studio business website preview"
+              className="project-image"
+            />
+
             <h3>Bloom Studio — Business Website</h3>
             <p>
               A responsive business website featuring service cards, an about
               section, and contact links, built with React and CSS.
             </p>
+
             <span>React.js · CSS · Vite</span>
+
             <div className="project-links">
               <a
                 href="https://bloom-studio-website-xxuh.vercel.app/"
@@ -81,7 +88,6 @@ function App() {
               </a>
             </div>
           </article>
-
         </div>
       </section>
 
@@ -92,10 +98,30 @@ function App() {
           Have a project in mind? I'd love to help you build a modern,
           responsive website for your business.
         </p>
-        <a className="button" href="mailto:priyshanmugraraj95@gmail.com">
+        <a
+          className="contact-button"
+          href="mailto:priyashanmugaraj95@gmail.com?subject=Freelance%20Project%20Inquiry"
+        >
           Contact Me →
         </a>
       </section>
+      <div className="social-links">
+        <a
+          href="https://github.com/priyashanmugaraj"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/jayapriya-s-b39573ab/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+      </div>
     </div>
   );
 }
